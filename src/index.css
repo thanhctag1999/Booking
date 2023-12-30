@@ -5,3 +5,27 @@
 .DatePicker_dateDayItem__KjTU0{
     border: none !important;
 }
+
+@media screen and (max-width:480px) {
+    .calendar{
+        width: 18rem;
+    }
+}
+
+@media screen and (min-width:780px) {
+    .calendar {
+        width: 40rem;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .calendar {
+        width: 55rem;
+    }
+}
+
+@media screen and (min-width:1366px) {
+    .calendar {
+        width: 100%;
+    }
+}
